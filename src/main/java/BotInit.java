@@ -24,7 +24,7 @@ public class BotInit {
                 .setAutoReconnect(true)
                 .build().awaitReady();
 
-
+//s
         jda.upsertCommand("ping","pong").queue();
 
     }
